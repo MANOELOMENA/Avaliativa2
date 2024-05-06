@@ -1,0 +1,45 @@
+.box{
+    background-color: rgb(18, 23, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+    margin: auto;
+
+    h1{
+        color:#fff;
+    }
+
+    p{
+        color: #ccc;
+    }
+
+    .logo{
+        flex-direction: column;
+        width: 15px;
+        height: 15px;
+        margin: auto;
+    }
+
+    .btn{
+        background-color:darkslategray;
+        color: #ccc;
+        border: none;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .sub{
+        margin-bottom: 10px;
+        padding: 10px 150px;
+        background-color: orangered;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
